@@ -1,0 +1,68 @@
+h1 {
+  position: center;
+  text-align: center;
+}
+
+.main {
+
+  width: 500px;
+  height: 1350px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  position: relative; 
+  top: 25%;
+  left: 25%;
+  right: 25%;
+  bottom: 25%;
+
+}
+
+ol{
+  list-style-type: none;
+}
+
+
+li {
+
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: ;
+  flex-wrap: ;
+
+}
+
+.codemaker {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  text-align: center;
+}
+
+.peg {
+  width: 25px;
+  height: 25px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 50%;
+}
+
+.smlpeg {
+  width: 10px;
+  height: 10px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 50%;
+}
+
+.square {
+
+}
