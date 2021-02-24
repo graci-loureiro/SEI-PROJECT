@@ -4,6 +4,7 @@ function init() {
 
 let colors = 
 let peg = 
+let randomColour = null
 
 //elements
 
@@ -13,7 +14,7 @@ console.log('array', firstArray)
 const nextArray
 
   //querySelectors
-const peg = document.querySelectorAll('.peg)
+const peg = document.querySelectorAll('.peg')
 
 
 //functions
@@ -21,12 +22,17 @@ const peg = document.querySelectorAll('.peg)
 function check ()
 for (let i = 0; i < 10; i++) {
   console.log(nextArray[i])
-  if  nextArray===firstArray
+  if (nextArray===firstArray) {
+    clearInterval(randomColour)
+    window.alert('Yay! You are a MASTERMIND!')
+  }
   
   return true
 
   else false //go to the next array
 }
+
+.innerHTML
 
 setInterval()
 
