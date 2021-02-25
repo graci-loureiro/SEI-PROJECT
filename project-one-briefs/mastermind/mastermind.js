@@ -5,6 +5,8 @@ function init() {
 let colors = 
 let peg = 
 let randomColour = null
+square ?
+smlpeg ?
 
 //elements
 
@@ -14,15 +16,15 @@ console.log('array', firstArray)
 const nextArray
 
   //querySelectors
-const peg = document.querySelectorAll('.peg')
-
+const peg = document.querySelectorAll('#peg')
+const getElementById('')
 
 //functions
 
-function check ()
+function check (event) //function triggered by a click on the submit
 for (let i = 0; i < 10; i++) {
   console.log(nextArray[i])
-  if (nextArray===firstArray) {
+  if (nextArray[i]===firstArray[i]) {
     clearInterval(randomColour)
     window.alert('Yay! You are a MASTERMIND!')
   }
@@ -34,8 +36,9 @@ for (let i = 0; i < 10; i++) {
 
 .innerHTML
 
-setInterval()
-
+setInterval (() => {
+  peg.
+}
 
 //events
 peg.addEventListener('click', peg)

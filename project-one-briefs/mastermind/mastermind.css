@@ -66,3 +66,8 @@ button {
 .square {
 
 }
+
+.b_white {background-color: #fff;}  
+.b_lilac {background-color: #9C27B0;} 
+.b_blue {background-color: #1976D2;}
+.b_dark {background-color: #202F8F;}
