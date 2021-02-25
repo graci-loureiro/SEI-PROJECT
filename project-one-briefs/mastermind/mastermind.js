@@ -2,7 +2,7 @@ function init() {
 
 //variables
 
-let colors = 
+let colours = [1, 2, 3, 4]
 let peg = 
 let randomColour = null
 square ?
@@ -21,8 +21,23 @@ const getElementById('')
 
 //functions
 
+colours.forEach(colourFunction);
+
+function colourFunction(colours) {
+  document.getElementById('peg').innerHTML = 
+}
+
+function rand_till(n){
+  //  if a = 6, f-i outputs a random one from a set of integers from 0 to 5.
+ var aa=Math.random();
+ var aaa = Math.floor(aa*n);
+ if (aaa == n) {aaa=0;}  
+ return Math.floor(aa*n);  
+ }
+
+
 function check (event) //function triggered by a click on the submit
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i <= 10; i++) {
   console.log(nextArray[i])
   if (nextArray[i]===firstArray[i]) {
     clearInterval(randomColour)
