@@ -42,13 +42,24 @@ function createArray () {
 createArray()
 console.log(newArray)
 
-document.getElementById('peg').addEventListener('click', newArray() {
-  document.getElementByTag('button').innerHTML = '';
-};
-
-
+/*document.getElementById('peg').addEventListener('click', newArray()){
+  document.getElementByTag('button').innerHTML = ''
+}
+*/
 
 function checkArrays() {
+for (i = 0; i < colours.length; i++) {
+  if (colours[i] === newArray) {
+    continue;
+  }
+  text += colours[i] + "<br>";
+  console.log(checkArrays)
+}
+}
+
+console.log(checkArrays)
+
+/*function checkArrays() {
   if (userArray===newArray) {
     window.alert = 'you are a mastermind!'
   }
@@ -56,6 +67,9 @@ function checkArrays() {
     window.alert = 'try again'
   }
   //go to next array
+
+  continue
+  getElementById('').
   console.log()
 }
 
